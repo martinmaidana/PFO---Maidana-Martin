@@ -166,10 +166,7 @@ body {
   /* Estilos para pantallas con un ancho máximo de 768px */
 }
 
-/* Móvil 1 */
-@media (max-width: 480px) {
-  /* Estilos para pantallas con un ancho máximo de 480px */
-}
+
 
 /* Móvil 2 */
 @media (max-width: 480px) {
@@ -198,7 +195,7 @@ body {
     margin: 3px auto;
     padding: 20px;
     background-color: #01abb3;
-    width: 100%;
+    width: 80%;
     height: 8px;
     text-align: center;
     color: #fff;
@@ -216,3 +213,8 @@ body {
     height: 80vh;
   }
 }
+
+/* Móvil  */
+@media (max-width: 376px) {
+    /* Estilos para pantallas con un ancho máximo de 480px */
+  }
