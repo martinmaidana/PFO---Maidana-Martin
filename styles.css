@@ -1,190 +1,187 @@
 /* General */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f9fc; 
-    color: #333;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-image: url(./images/pixel.gif);
-    background-size: cover; /* Hace que la imagen se ajuste al tamaño del contenedor */
-    background-position: center; /* Centra la imagen horizontal y verticalmente */
-    background-repeat: no-repeat; /* la imagen se repetía, coloque este estilo para que no se repitiera */
+  font-family: "Arial", sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(./images/pixel.gif);
+  background-size: cover; /* Hace que la imagen se ajuste al tamaño del contenedor */
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-repeat: no-repeat; /* la imagen se repetía, coloque este estilo para que no se repitiera */
 }
 
 .contenedor {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .titulo {
-    padding-left: 20px;
-    margin: 0;
-    color: #1f487b;
-    font-size: 60px;
-    font-family: 'Roboto', Tahoma, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  padding-left: 20px;
+  margin: 0;
+  color: #1f487b;
+  font-size: 60px;
+  font-family: "Roboto", Tahoma, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .frase {
- 
-    padding: 10px;
-    font-style: italic; /* Texto en cursiva */
-    margin: 0;
-    text-align: right; /* Alinea el texto a la derecha */
+  padding: 10px;
+  font-style: italic; /* Texto en cursiva */
+  margin: 0;
+  text-align: right; /* Alinea el texto a la derecha */
 }
 
-.descripcion{
-    color: #72e4f2;
-    font-size: 48px;
-    height: 156px;
-    background-color: #151562;
-    padding: 20px 150px 0px 150px;
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+.descripcion {
+  color: #72e4f2;
+  font-size: 48px;
+  height: 156px;
+  background-color: #151562;
+  padding: 20px 150px 0px 150px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.bloques{
-    border: 1px solid #009BA2;
-    border-radius: 0px;
-    margin: 10px auto;
-    padding: 20px;
-    height: 130px;
-    background-color: #01abb3;
-    width: 100%;
-    text-align: center;
-    color: #fff;
+.bloques {
+  border: 1px solid #009ba2;
+  border-radius: 0px;
+  margin: 10px auto;
+  padding: 20px;
+  height: 130px;
+  background-color: #01abb3;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
 
 .bloques:hover {
-    color: #181818;
-    text-decoration: underline;
+  color: #181818;
+  text-decoration: underline;
 }
 
 /* Estilos para la imagen */
 .Maligno {
-    display: block;
-    margin: 20px auto; /* Margen superior e inferior de 20px, imagen centrada */
-    padding: 10px 0; /* Padding superior e inferior de 10px */
-    border-radius: 35px; 
-    max-width: 100%; /* Conservé el ancho de la imagen */
-    height: calc(100% - 10px); /* Reducí la altura en 10px */
+  display: block;
+  margin: 20px auto; /* Margen superior e inferior de 20px, imagen centrada */
+  padding: 10px 0; /* Padding superior e inferior de 10px */
+  border-radius: 35px;
+  max-width: 100%; /* Conservé el ancho de la imagen */
+  height: calc(100% - 10px); /* Reducí la altura en 10px */
 }
-
 
 /* Tabla */
 /* En esta sección, elegí una tabla, pero me di cuenta que seria mejor usar un divs y trabajar mejor con el formato que quiero utilizar, aunque usar una tabla e intentar llegar a ese resultado me parece más desafiante*/
 .tabla {
-    width: 100%;    
-    border-spacing: 10px; /* Espacio entre columnas */
-    margin: 20px 0;
-    font-size: 30px; /* Tamaño de fuente para el contenido */
-    padding: 5px; /* Espacio entre el borde de la tabla y el contenido */
+  width: 100%;
+  border-spacing: 10px; /* Espacio entre columnas */
+  margin: 20px 0;
+  font-size: 30px; /* Tamaño de fuente para el contenido */
+  padding: 5px; /* Espacio entre el borde de la tabla y el contenido */
 }
 
 .encabezado_tabla {
-    padding: 15px;
-    color: #72e4f2; /* Color de texto blanco para el encabezado */
-    border-radius: 7px;
-    text-align: center; /* Centra el texto en los encabezados */
-    background-color: #151562;
+  padding: 15px;
+  color: #72e4f2; /* Color de texto blanco para el encabezado */
+  border-radius: 7px;
+  text-align: center; /* Centra el texto en los encabezados */
+  background-color: #151562;
 }
-
 
 .cuerpo_tabla {
-    padding: 15px;
-    color:#000000;
-    font-size: 30px; /* Tamaño de fuente para las celdas */
-    vertical-align: top; /* Alinea el texto al principio de la celda */
-    text-align: center; /* Centra el texto en las celdas */
+  padding: 15px;
+  color: #000000;
+  font-size: 30px; /* Tamaño de fuente para las celdas */
+  vertical-align: top; /* Alinea el texto al principio de la celda */
+  text-align: center; /* Centra el texto en las celdas */
 }
 
-
-
-
-
-#contacto {   
-    display: flex;
-    justify-content: flex-end; /* Alinea el formulario a la derecha */
-    align-items: center; /* Centra el formulario verticalmente */ 
-    height: 100vh; 
-    background-image: url('./images/literatura-argentina-II.webp'); 
-    background-size: cover; 
-    background-position: center; 
-    color: #fff; 
- }
+#contacto {
+  display: flex;
+  justify-content: flex-end; /* Alinea el formulario a la derecha */
+  align-items: center; /* Centra el formulario verticalmente */
+  height: 100vh;
+  background-image: url("./images/literatura-argentina-II.webp");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
 
 .formulario {
-    width: 40%; /* El formulario ocupa el 40% del ancho total */
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente para resaltar el formulario */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar un efecto de elevación */
-    
+  width: 40%; /* El formulario ocupa el 40% del ancho total */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Fondo negro semitransparente para resaltar el formulario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar un efecto de elevación */
 }
 
-.formulario label, .formulario input, .formulario button {
-    display: block; /* Hacer que los elementos de formulario ocupen toda la fila */
-    width: calc(100% - 20px); /* Ajusta el ancho teniendo en cuenta el padding */
-    margin: 0 auto 10px; /* Márgenes automáticos a los lados y separación inferior */
-    padding: 10px;
-    font-size: 16px;
+.formulario label,
+.formulario input,
+.formulario button {
+  display: block; /* Hacer que los elementos de formulario ocupen toda la fila */
+  width: calc(100% - 20px); /* Ajusta el ancho teniendo en cuenta el padding */
+  margin: 0 auto 10px; /* Márgenes automáticos a los lados y separación inferior */
+  padding: 10px;
+  font-size: 16px;
 }
 
 .formulario button {
-    background-color: #009BA2;
-    width: 70px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #009ba2;
+  width: 70px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .formulario button:hover {
-    background-color: #007B83; /* Cambio de color del botón al pasar el cursor */
+  background-color: #007b83; /* Cambio de color del botón al pasar el cursor */
 }
 
 #footer {
-    padding-top: 30px;
-    padding-bottom: 25px;
-    background: #000000;
-    color:white;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background: #000000;
+  color: white;
 }
-
-
 
 /*<-----------------Responsividad--------------------->
 
 /* Tablet horizontal */
 @media (max-width: 1080px) {
-    /* Estilos para pantallas con un ancho máximo de 1080px */
-  }
-  
-  /* Tablet vertical */
-  @media (max-width: 768px) {
-    /* Estilos para pantallas con un ancho máximo de 768px */
-  }
-  
-  /* Móvil 1 */
-  @media (max-width: 480px) {
-    /* Estilos para pantallas con un ancho máximo de 480px */
-  }
-  
-  /* Móvil 2 */
-  @media (max-width: 375px) {
-    /* Estilos para pantallas con un ancho máximo de 375px */
-  body{
+  /* Estilos para pantallas con un ancho máximo de 1080px */
+}
+
+/* Tablet vertical */
+@media (max-width: 768px) {
+  /* Estilos para pantallas con un ancho máximo de 768px */
+}
+
+/* Móvil 1 */
+@media (max-width: 480px) {
+  /* Estilos para pantallas con un ancho máximo de 480px */
+}
+
+/* Móvil 2 */
+@media (max-width: 375px) {
+  /* Estilos para pantallas con un ancho máximo de 375px */
+  body {
     width: fit-content;
   }
-  .contenedor{
+  .contenedor {
     display: flex;
     flex-direction: column;
   }
-  .descripcion{
+  .descripcion {
     color: #72e4f2;
     font-size: 20px;
     background-color: #151562;
@@ -193,11 +190,11 @@ body {
     font-family: "Roboto Mono", monospace;
     font-weight: 700;
   }
- nav {
+  nav {
     display: flex;
     flex-direction: column;
-}
-.bloques{
+  }
+  .bloques {
     margin: 3px auto;
     padding: 20px;
     background-color: #01abb3;
@@ -205,18 +202,16 @@ body {
     height: 8px;
     text-align: center;
     color: #fff;
-}
-.Maligno{
+  }
+  .Maligno {
     height: 30%;
     width: 60%;
-}
-.tabla{
+  }
+  .tabla {
     display: none;
-}
-.formulario{
+  }
+  .formulario {
     width: 100%;
     padding: 0px;
-}
-  
   }
-  
+}
