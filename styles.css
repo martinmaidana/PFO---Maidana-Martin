@@ -172,7 +172,7 @@ body {
 }
 
 /* Móvil 2 */
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   /* Estilos para pantallas con un ancho máximo de 375px */
   body {
     width: fit-content;
@@ -213,5 +213,6 @@ body {
   .formulario {
     width: 100%;
     padding: 0px;
+    height: 80vh;
   }
 }
