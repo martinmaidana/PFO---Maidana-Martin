@@ -47,6 +47,12 @@ body {
   font-style: normal;
 }
 
+.navegacion{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
 .bloques {
   border: 1px solid #009ba2;
   border-radius: 0px;
@@ -64,6 +70,8 @@ body {
   text-decoration: underline;
 }
 
+
+
 /* Estilos para la imagen */
 .Maligno {
   display: block;
@@ -72,6 +80,17 @@ body {
   border-radius: 35px;
   max-width: 100%; /* Conservé el ancho de la imagen */
   height: calc(100% - 10px); /* Reducí la altura en 10px */
+}
+
+.contenedor-porque, .contenedor-sobre{
+  display: flex;
+  
+}
+
+.texto-porque p, .texto-sobre p{
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  padding: 20px;
 }
 
 /* Tabla */
@@ -158,12 +177,29 @@ body {
 
 /* Tablet horizontal */
 @media (max-width: 1080px) {
-  /* Estilos para pantallas con un ancho máximo de 1080px */
+  .descripcion{
+    font-size: 32px;
+  }
+  .bloques{
+    padding: 2px;
+    
+  }
+  .texto-porque p, .texto-sobre p {
+
+    font-size: 17px;
+}
+
+.imagen-porque, .video-sobre{
+  display: flex;
+  align-items: center;
+}
 }
 
 /* Tablet vertical */
 @media (max-width: 768px) {
-  /* Estilos para pantallas con un ancho máximo de 768px */
+  .descripcion {
+    font-size: 20px;
+}
 }
 
 /* Móvil 2 (max-width: 480px) */
@@ -217,6 +253,7 @@ body {
     /* Estilos para pantallas con un ancho máximo de 375px */
     body {
       width: 100%; /* Ocupa todo el ancho disponible */
+      background-color: #007b83;
     }
     .contenedor {
       background-color: #f0f0f0; /* Cambia el color de fondo */
@@ -228,8 +265,9 @@ body {
       background-color: #003366; /* Un color más oscuro */
     }
     nav {
-      flex-direction: row; /* Cambia el menú a una fila horizontal */
-    }
+        display: flex;
+        flex-direction: column;
+      }
     .bloques {
       padding: 15px; /* Ajusta el padding */
       width: 90%; /* Más ancho para aprovechar mejor el espacio */

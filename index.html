@@ -6,9 +6,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-        
-    <title>leer.ar - Tu Librería Argentina 
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23skyblue' d='M0 85.3h512v341.4H0z'/%3E%3Cpath fill='%23fff' d='M0 170.7h512v170.6H0z'/%3E%3C/svg%3E" alt="Bandera Argentina" style="width: 20px; height: 13px; vertical-align: middle;">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>leer.ar - Tu Librería Argentina
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23skyblue' d='M0 85.3h512v341.4H0z'/%3E%3Cpath fill='%23fff' d='M0 170.7h512v170.6H0z'/%3E%3C/svg%3E"
+            alt="Bandera Argentina" style="width: 20px; height: 13px; vertical-align: middle;">
     </title>
     <link rel="stylesheet" href="./styles.css"> <!-- Enlace al CSS externo -->
 </head>
@@ -33,13 +36,15 @@
 
     <!-- Navegación con enlaces a las categorías -->
     <nav>
-        <a class="bloques" href="#historia">Historia Argentina</a>
-        <a class="bloques" href="#medicina">Medicina Argentina</a>
-        <a class="bloques" href="#deporte">Deporte Argentino</a>
-        <a class="bloques" href="#nutricion">Nutrición Argentina</a>
-        <a class="bloques" href="#cienciaficcion">Ciencia Ficción Argentina</a>
-        <a class="bloques" href="#geografia">Geografía Argentina</a>
-        <a class="bloques" href="#música">Música Argentina</a>
+        <ul class="navegacion">
+            <li><a class="bloques" href="#historia">Historia Argentina</a></li>
+            <li><a class="bloques" href="#medicina">Medicina Argentina</a></li>
+            <li><a class="bloques" href="#deporte">Deporte Argentino</a></li>
+            <li><a class="bloques" href="#nutricion">Nutrición Argentina</a></li>
+            <li><a class="bloques" href="#cienciaficcion">Ciencia Ficción Argentina</a></li>
+            <li><a class="bloques" href="#geografia">Geografía Argentina</a></li>
+            <li><a class="bloques" href="#música">Música Argentina</a></li>
+        </ul>
     </nav>
 
     <!-- Imagen representativa -->
@@ -47,29 +52,53 @@
         <img src="images/Maligno-Torres.jpg" class="Maligno" alt="Próceres Argentinos">
     </section>
     <!-- Inicio porque lo hacemos -->
-    <section id="porque-lo-hacemos">
-        <h2>¿Por qué lo hacemos?</h2>
-        <p>
-          Creemos profundamente en la importancia de la lectura nacional, especialmente en los libros de autores argentinos que nos permiten conocer y conectar con nuestra identidad y cultura. La literatura argentina ha dado vida a relatos poderosos que siguen influyendo en generaciones de lectores.
-        </p>
-        <p>
-          Una anécdota que nos inspira es la de la escritora Silvina Ocampo, una autora cuya creatividad y estilo único no solo cautivaron a sus contemporáneos, sino que también rompió barreras dentro de la narrativa. Su tenacidad y pasión por contar historias nos motivan a seguir difundiendo y apoyando la literatura nacional.
-        </p>
-        <!-- <img src="ruta/de/tu/imagen.jpg" alt="Imagen relacionada con literatura argentina"> -->
-      </section>
-      <!-- Fin porque lo hacemos -->
+   <!-- Sección ¿Por qué lo hacemos? -->
+<section id="porque-lo-hacemos">
+    <h2>¿Por qué lo hacemos?</h2>
+    <div class="contenedor-porque">
+        <div class="texto-porque">
+            <p class="descripcion-porque">
+                Creemos profundamente en la importancia de la lectura nacional, especialmente en los libros de autores
+                argentinos que nos permiten conocer y conectar con nuestra identidad y cultura. La literatura argentina ha
+                dado vida a relatos poderosos que siguen influyendo en generaciones de lectores.
+            </p>
+            <p class="anecdota-porque">
+                Una anécdota que nos inspira es la de la escritora Silvina Ocampo, una autora cuya creatividad y estilo
+                único no solo cautivaron a sus contemporáneos, sino que también rompió barreras dentro de la narrativa. Su
+                tenacidad y pasión por contar historias nos motivan a seguir difundiendo y apoyando la literatura
+                nacional.
+            </p>
+        </div>
+        <div class="imagen-porque">
+            <img src="images/PNL.jpg" class="pnl" alt="plan-nacional-de-lecturas">
+        </div>
+    </div>
+</section>
+<!-- Fin porque lo hacemos -->
 
-     
+<!-- Inicio sobre nosotros -->
+<section id="sobre-nosotros">
+    <h2>Sobre nosotros</h2>
+    <div class="contenedor-sobre">
+        <div class="texto-sobre">
+            <p class="descripcion-sobre">
+                Somos un equipo de desarrolladores en formación comprometidos con mejorar nuestras habilidades y
+                contribuir al mundo digital de manera creativa y eficiente. Nos apasiona la tecnología y estamos en constante
+                aprendizaje para ofrecer proyectos innovadores que reflejen nuestros conocimientos y crecimiento profesional.
+            </p>
+        </div>
+        <div class="video-sobre">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YYEhye6eI8k"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<!-- Fin sobre nosotros -->
 
-       <!-- Inicio sobre nosotros -->
-       <section id="sobre-nosotros">
-        <h2>Sobre nosotros</h2>
-        <p>
-          Somos un equipo de desarrolladores en formación comprometidos con mejorar nuestras habilidades y contribuir al mundo digital de manera creativa y eficiente. Nos apasiona la tecnología y estamos en constante aprendizaje para ofrecer proyectos innovadores que reflejen nuestros conocimientos y crecimiento profesional.
-        </p>
-      </section>
-     <!-- Fin sobre nosotros -->
-      
+    <!-- Fin sobre nosotros -->
+
     <!-- Tabla de tecnologías y hobbies -->
     <section>
         <table class="tabla">
@@ -88,8 +117,13 @@
                 </tr>
                 <tr>
                     <td class="cuerpo_tabla">Tratado De Medicina Legal Y Elementos De Patologia Forense</td>
-                    <td class="cuerpo_tabla">Con tremendos clásicos como La autopista del sur, La salud de los enfermos y Instrucciones para John Howell, es en este compilado en el que también está La Señorita Cora.</td>
-                    <td class="cuerpo_tabla">“No es cierto que el amor todo lo puede. No es cierto que el que ama no puede engañar. No es cierto que a la relación amorosa no haya que ponerle condiciones. No es cierto que el amor y el deseo vayan siempre de la mano. Pero decir que todo esto no es cierto no implica que sea imposible”</td>
+                    <td class="cuerpo_tabla">Con tremendos clásicos como La autopista del sur, La salud de los enfermos
+                        y Instrucciones para John Howell, es en este compilado en el que también está La Señorita Cora.
+                    </td>
+                    <td class="cuerpo_tabla">“No es cierto que el amor todo lo puede. No es cierto que el que ama no
+                        puede engañar. No es cierto que a la relación amorosa no haya que ponerle condiciones. No es
+                        cierto que el amor y el deseo vayan siempre de la mano. Pero decir que todo esto no es cierto no
+                        implica que sea imposible”</td>
                 </tr>
                 <tr>
                     <td class="cuerpo_tabla">Jose A Patito</td>
@@ -103,21 +137,22 @@
     <!-- Formulario de contacto -->
     <section id="contacto">
 
-          <!-- Decidi eliminar los label de cada input porque al final me gustó mas como quedó sin ellos. -->
+        <!-- Decidi eliminar los label de cada input porque al final me gustó mas como quedó sin ellos. -->
         <form class="formulario">
             <h2>Contáctanos</h2>
-            
+
             <input type="text" id="nombre" name="nombre" placeholder="NOMBRE"><br><br>
-            
+
             <input type="text" id="apellido" name="apellido" placeholder="APELLIDO"><br><br>
-           
+
             <input type="email" id="email" name="email" placeholder="EMAIL"><br><br>
-            
+
             <input type="tel" id="telefono" name="telefono" placeholder="TELEFONO"><br><br>
-            <button type="submit">Enviar</button>
+            <button type="submit"><i class="fas fa-plane"></i> Enviar</button>
+
         </form>
     </section>
-  <!-- Pie de página -->
+    <!-- Pie de página -->
     <footer id="footer">
 
         <div>
